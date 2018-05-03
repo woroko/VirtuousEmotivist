@@ -215,7 +215,7 @@ class VirtuousEmotivistModel(Model):
 
         
         # uncomment to make runs reproducible
-        #super().__init__(seed=init_seed)
+        super().__init__(seed=init_seed)
         
         self.height = height
         self.width = width
